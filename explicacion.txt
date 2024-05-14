@@ -1,0 +1,39 @@
+﻿link: https://tungui3322.pythonanywhere.com
+
+PACIENTES:
+
+	POST: https://tungui3322.pythonanywhere.com/pacientes
+	PARAMETROS: formato JSON. nombre, apellido, cedula, historial_medico_detalles
+
+	PUT: https://tungui3322.pythonanywhere.com/pacientes/{paciente_id} EJEMPLO: https://tungui3322.pythonanywhere.com/pacientes/1
+	PARAMETROS: formato JSON. nombre, apellido, cedula, historial_medico_detalles
+
+	DELETE: https://tungui3322.pythonanywhere.com/pacientes/{paciente_id} EJEMPLO: https://tungui3322.pythonanywhere.com/pacientes/1
+	SIN PARAMETROS
+
+	GET: https://tungui3322.pythonanywhere.com/pacientes/{paciente_id} EJEMPLO: https://tungui3322.pythonanywhere.com/pacientes/1
+
+MEDICOS:
+
+POST: https://tungui3322.pythonanywhere.com/medicos
+
+	POST: https://tungui3322.pythonanywhere.com/medicos
+	PARAMETROS: formato JSON. nombre, apellido, cedula, especialidad_nombre, especialidad_descripcion
+
+	PUT: https://tungui3322.pythonanywhere.com/medicos/{medico_id} EJEMPLO: https://tungui3322.pythonanywhere.com/medicos/1
+	PARAMETROS: formato JSON. nombre, apellido, cedula, especialidad_nombre, especialidad_descripcion
+
+	DELETE: https://tungui3322.pythonanywhere.com/medicos/{medico_id} EJEMPLO: https://tungui3322.pythonanywhere.com/medicos/1
+	SIN PARAMETROS
+
+	GET: https://tungui3322.pythonanywhere.com/medicos/{medico_id} EJEMPLO: https://tungui3322.pythonanywhere.com/medicos/1
+
+CITAS: https://tungui3322.pythonanywhere.com/citas
+
+	POST: https://tungui3322.pythonanywhere.com/citas
+	PARAMETROS: formato JSON. paciente_id, medico_id
+
+	DELETE: https://tungui3322.pythonanywhere.com/citas/{cita_id} EJEMPLO: https://tungui3322.pythonanywhere.com/citas/1
+	SIN PARAMETROS
+
+	GET: https://tungui3322.pythonanywhere.com/citas/{cita_id} EJEMPLO: https://tungui3322.pythonanywhere.com/citas/1
